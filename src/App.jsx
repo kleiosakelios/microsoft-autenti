@@ -5,14 +5,12 @@ function App() {
   return (
     <div className="App">
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
+        <a href="#">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg/1101px-Microsoft_Office_Outlook_%282018%E2%80%93present%29.svg.png" className="logo" alt="logo" />
         </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        
       </div>
-      <h1>Login Microsoft</h1>
+      <h1>SISTEMA LOGIN CON MICROSOFT</h1>
       <div className="card">
         <button
           onClick={() => {
@@ -39,7 +37,7 @@ function App() {
             });
           }}
         >
-          Ingresar con Microsoft
+          login
         </button>
       </div>
     </div>
